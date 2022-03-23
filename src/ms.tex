@@ -8,18 +8,34 @@
 \begin{document}
 
 % Title
-\title{An open source scientific article}
+\title{An open source scientific article about M~dwarf planet occurrence}
 
 % Author list
-\author[0000-0000-0000-0000]{First Author}
+\author[0000-0000-0000-0000]{Martin Schlecker}
 
 % Abstract with filler text
 \begin{abstract}
+    We're going to add some blind text here, for now:
     \blindtext
 \end{abstract}
 
 % Main body with filler text
 \section{Introduction}
 \Blindtext[4]
+
+
+\section{Methods}
+   Not for real, we didn't do anything yet, so we don't have any methods to show.
+    But hey, how about showing a figure anyway?
+    Can't hurt. Okay, let's see how this works in AAStex.
+\begin{figure}
+    \begin{centering}
+        \includegraphics{figures/total_occurrence.pdf}
+        \caption{The total_occurrence set.}
+        % This label tells showyourwork that the script `figures/total_occurrence.py'
+        % generates the PDF file included above
+        \label{fig:total_occurrence}
+    \end{centering}
+\end{figure}
 
 \end{document}
